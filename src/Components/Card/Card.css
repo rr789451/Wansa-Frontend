@@ -1,0 +1,37 @@
+.card-container{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-container .card{
+    width: 25vw;
+    margin: 5rem;
+    display: inline-block;
+}
+
+.card-container .card .logo-img{
+    background-color: #fffaea;
+    padding: 2rem;
+    width: 3vw;
+    height: 2.8vw;
+    border-radius: 50%;
+}
+
+.card-container .card .logo-img .fas{
+    padding-left: 0.2vw;
+    padding-top: 0.8vh;
+    font-size: 2rem;
+    color: #ffe27b;
+}
+
+.card-container .card .heading{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 3vh 0;
+}
+
+.card-container .card .description{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}

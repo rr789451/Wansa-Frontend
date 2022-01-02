@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400&display=swap');
+
+body{
+    font-family: 'Genos', sans-serif;
+}
+
+.accordian-container{
+    padding: 15rem 0 10rem 0;
+    width: 100vw;
+}
+
+.description-container-1{
+    width: 90vw;
+    background-color: #f9f2ff;
+    margin-top: 10rem;
+    padding-bottom: 3rem;
+    margin-left: auto;
+}
+
+.description-container-1 h2{
+    font-size: 2rem;
+    width: 55rem;
+    margin: 1rem auto;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 7rem;
+    padding-top: 5rem;
+}
+
+.description-container-1 .description-2{
+    font-size: 0.92rem;
+    width: 45rem;
+    color: #5f5f5f;
+    letter-spacing: 0.1rem;
+    margin: 2rem auto;
+    line-height: 1.8rem;
+    text-align: center;
+}
+
+.description-container-1 .landing-button-2{
+    margin: 2rem auto 0 auto;
+    padding: 0.8rem;
+    background-color: #141641;
+    color: #fff;
+    width: 7rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-align: center;
+    cursor: pointer;
+}
+
+.accordian-description-container{
+    position: relative;
+    background: linear-gradient(340deg,#f2fdf1, #edf6ff);
+    width: 90vw;
+    margin: 0 auto;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.accordian-description{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.accordian-description-container .accordian-description img{
+    position: relative;
+    width: 20vw;
+    height: 18vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.accordian-description-container .accordian-description .appointment{
+    position: relative;
+    width: 18vw;
+    height: 15vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.accordian-description-container .accordian-description .accordian-container-left div{
+    position: relative;
+    font-size: 1.6rem;
+    margin-top: 5vh;
+    width: 50vw;
+    line-height: 3rem;
+}
+
+.accordian-container .secondary-button{
+    background-color: #fff6e5;
+    color: #141641;
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    max-width: 15rem;
+    text-align: center;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    margin: 0.5rem;
+    margin-top: -2rem;
+    font-weight: bold;
+}
+
+.accordian-container .secondary-button:hover{
+    background-color: #141641;
+    color: #fff;
+    transition: 0.5s all;
+}
+
+.accordian-container .button-container{
+    width: 50vw;
+    margin: auto;
+    margin-top: -5rem;
+    margin-bottom: 10vh;
+}
+
+.description-tag div{
+    position: relative;
+    font-size: 0.9rem;
+    width: 70vw;
+    text-align: right;
+    padding: 1rem;
+    margin-top: -10rem;
+    margin-bottom: 2rem;
+    background: #fff6e5;
+}
+
+@media screen and (max-width: 991px){
+    .accordian-container{
+        margin-top: -7rem;
+    }
+    
+    .accordian-description-container{
+        padding: 5rem 0 5rem 0;
+    }
+
+    .accordian-description{
+        flex-direction: column-reverse;
+        width: 90vw;
+    }
+
+    .accordian-description-container .accordian-description img{
+        position: relative;
+        width: 45vw;
+        height: 40vw;
+        margin: 0;
+        margin-left: 20vw;
+        margin-top: -5vh;
+    }
+
+    .accordian-description-container .accordian-description .appointment{
+        position: relative;
+        width: 45vw;
+        height: 40vw;
+        margin: 0;
+        margin-left: 25vw;
+        margin-top: -5vh;
+    }
+
+    .accordian-description-container .accordian-description .accordian-container-left div{
+        margin: 0rem auto;
+        width: 90%;
+        font-size: 1.25rem;
+    }
+
+    .accordian-description-container .accordian-description .accordian-container-left .button-container{
+        margin: 0;
+        width: 100vw;
+        margin-left: -10vw;
+    }
+    
+    .accordian-description-container .accordian-description .accordian-container-left .primary-button{
+        width: 40vw;
+        font-size: 0.6rem;
+        margin-top: 2rem;
+        margin-left: 10vw;
+    }
+    
+    .description-container-1{
+        margin-top: 0rem;
+        padding-bottom: 1rem;
+        width: 95vw;
+    }
+
+    .accordian-container img{
+        position: relative;
+        width: 80vw;
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+    .description-tag div{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .accordian-container .button-container{
+        position: relative;
+        width: 90vw;
+    }
+
+    .accordian-container .secondary-button{
+        width: 30vw;
+        padding: 0.7rem 0.8rem;
+        margin: 1rem;
+    }
+
+    .description-container-1 h2{
+        font-size: 1.3rem;
+        width: 20rem;
+        padding-top: 3rem;
+    }
+
+    .description-container-1 .description-2{
+        width: 20rem;
+        font-size: 0.78rem;
+        line-height: 1.3rem;
+        font-weight: 900;
+    }
+}

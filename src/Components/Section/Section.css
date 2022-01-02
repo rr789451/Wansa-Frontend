@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500&display=swap');
+
+body{
+	font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.section-container{
+    padding: 5rem 0 5rem 0;
+    width: 100vw;
+}
+
+.section-description{
+    display: flex;
+    width: 95vw;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.section-container .section-description img{
+    position: relative;
+    width: 30vw;
+    margin-top: 2vh;
+}
+
+.section-container .section-description .section-container-left{
+    margin-left: 10vw;
+}
+
+.section-container .section-description .section-container-left h2{
+    position: relative;
+    font-size: 2.25rem;
+    margin-top: -4rem;
+    width: 35vw;
+}
+
+.section-container .section-description .section-container-left div{
+    position: relative;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    width: 40vw;
+}
+
+.section-container ul li{
+    list-style: disc;
+    font-size: 1.094rem;
+    line-height: 2rem;
+}
+
+.section-container .section-description .section-container-left .primary-button{
+    background-color: #141641;
+    color: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    max-width: 15rem;
+    text-align: center;
+    padding: 0.7rem 1.5rem;
+    margin: 1.5rem 2rem 0 0;
+    cursor: pointer;
+    border: none;
+}
+
+.section-container .section-description .section-container-left .button{
+    background: none;
+    margin: 5vh 0 2vh 0;
+}
+
+.section-container .section-description .section-container-left .button input{
+    width: 12vw;
+    height: 7vh;
+    margin-right: 2vw;
+    border-radius: 5px;
+}
+
+.section-container .section-description .section-container-left .button button{
+    width: 12vw;
+    height: 7.5vh;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.section-container .section-description .section-container-left .secondary-button{
+    background-color: transparent;
+    color: #141641;
+    border: 1px solid #141641;
+    border-radius: 2px;
+    display: inline-block;
+    max-width: 15rem;
+    text-align: center;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 991px){
+
+    .section-container{
+        padding: 5rem 0 5rem 0;
+    }
+
+    .section-description{
+        flex-direction: column-reverse;
+        width: 90vw;
+    }
+
+    .section-container .section-description img{
+        position: relative;
+        width: 50vw;
+        margin: 0 18vw 0 18vw;
+    }
+
+    .section-container .section-description .section-container-left h2{
+        position: relative;
+        font-size: 2rem;
+        margin-top: 4rem;
+        width: 100%;
+    }
+
+    .section-container .section-description .section-container-left div{
+        margin: 0rem;
+        width: 100%;
+    }
+
+    .section-container .section-description .section-container-left .button-container{
+        margin: 0;
+        width: 100vw;
+        margin-left: -10vw;
+    }
+    
+    .section-container .section-description .section-container-left .primary-button{
+        width: 40vw;
+        font-size: 0.6rem;
+        margin-top: 2rem;
+        margin-left: 10vw;
+    }
+}

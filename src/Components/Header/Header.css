@@ -1,0 +1,90 @@
+.header{
+    height: 8vh;
+    display: inline-block;
+    display: flex;
+    width: 100%;
+}
+
+.header .stats{
+    margin: 0 2vw;
+}
+
+.header .stats p{
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+.header .stats h2{
+    font-size: 1.55rem;
+    margin-top: -1vh;
+}
+
+.header .overlay{
+    width: 100vw;
+    position: absolute;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 5;
+    overflow: hidden;
+}
+
+.header .search button{
+    width: 60vw;
+    height: 5vh;
+    margin: 0.5em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.15rem;
+    display: block;
+}
+
+.header .search .block{
+    display: block;
+}
+
+.header .search .none{
+    display: none;
+}
+
+.header .overlay .suggest-container{
+    width: 100vw;
+}
+
+.header .overlay .suggest-container .heading{
+    font-size: 1.75rem;
+    padding: 2rem;
+    font-weight: bold;
+}
+
+.header .overlay .suggest-container .suggestions{
+    font-size: 1.25rem;
+    text-align: center;
+    background-color: wheat;
+    margin: 1.5rem 10rem;
+    padding: 1rem;
+    border-radius: 50px;
+}
+
+.header .overlay .suggest-container .fas{
+    font-size: 2rem;
+    float: right;
+    margin-right: 10rem;
+    margin-top: -68vh;
+    cursor: pointer;
+}
+
+.header .login-register{
+    margin: 0.6em 2em 0.6rem 0;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.header .login-register div{
+    padding: 0.5em 0.8em;
+    border: 2px solid wheat;
+    border-radius: 5px;
+}

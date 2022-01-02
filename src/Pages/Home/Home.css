@@ -1,0 +1,66 @@
+.hero{
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, .8);
+    background-image: url('../../../public/Images/hero.jpg');
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.hero .description{
+    width: 50vw;
+    position: absolute;
+}
+
+.hero .description .heading{
+    color: #fff;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 40vw;
+    text-align: left;
+    padding: 15vh 0 3vh 10vw;
+}
+
+.hero .description .content{
+    color: #fff;
+    padding: 0 0 2vh 10vw;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    width: 35vw;
+}
+
+.hero .description .button{
+    background: none;
+    margin: 2vh 0 2vh 10vw;
+}
+
+.hero .description .button input{
+    width: 12vw;
+    height: 7vh;
+    margin-right: 2vw;
+    border-radius: 5px;
+}
+
+.hero .description .button button{
+    width: 12vw;
+    height: 7.5vh;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero .services{
+    float: right;
+    color: #000;
+    padding: 10vh 10vw 3vh 0;
+    display: inline;
+}
+
+.hero .services .card{
+    padding: 0.6em 1.5em;
+    margin: 1em;
+    font-size: 1.5rem;
+    width: 20vw;
+    background-color: #fff;
+    border-radius: 5px;
+}

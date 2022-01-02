@@ -1,0 +1,11 @@
+.expand{
+    width: 100vw;
+}
+
+.expand .section-description .bgc{
+
+    background-color: #f2f6fc;
+    margin-left: -5vw;
+    padding: 15vh 10vw 12vh 15vw;
+    margin-top: -22vh;
+}
