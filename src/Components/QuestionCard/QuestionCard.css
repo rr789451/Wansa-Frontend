@@ -1,18 +1,19 @@
 .question-container{
-    width: 50vw;
+    width: 90vw;
     margin-left: auto;
     margin-right: auto;
 }
 
 .question-container .question-card{
     width: 40vw;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-block;
     background-color: #fff;
     box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.1);
     margin-top: 10vh;
     border-radius: 10px;
     margin-bottom: 10vh;
+    margin-right: 2.5vw;
+    margin-left: 2.5vw;
 }
 
 .question-container .question-card .question{

@@ -8,7 +8,7 @@ function Navigation() {
         <div>
             <Header />
             <div className='navigation'>
-                <div className='logo'>HOM <span>SHOP</span></div>
+                <div className='logo'><img src="./Images/wansa.png" alt=''/></div>
                 <ul className='nav-items'>
                     <li className="nav-item">
                         SEO & Lead Generation <i className="fas fa-chevron-down"></i>

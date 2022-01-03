@@ -32,7 +32,7 @@ function Header() {
                 }
             </div>
             <div className="login-register">
-                <div><i className="fas fa-user"></i> CLIENT LOGIN / REGISTER</div>
+                <div><i className="fas fa-user"></i> Client Onboarding / Partner Onboarding</div>
             </div>
             {/* <div className="number">
                 888-601-5359

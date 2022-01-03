@@ -13,10 +13,10 @@ body{
     background-color: #000;
 }
 
-.logo{
-    font-size: 1.5rem;
-    color: #B4AAA8;
-    padding-top: 2.5vh;
+.logo img{
+    width: 13vw;
+    height: 8vh;
+    padding-top: 1vh;
     padding-bottom: 2.5vh;
     padding-left: 1.5vw;
 }
@@ -31,7 +31,7 @@ body{
     padding-left: 25vw;
     font-size: 1rem;
     font-weight: 500;
-    margin-top: -6.5vh;
+    margin-top: -10vh;
     color: #fff;
 }
 
