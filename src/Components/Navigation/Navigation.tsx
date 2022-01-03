@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Header from '../Header/Header'
 import './Navigation.css'
 
@@ -250,7 +251,7 @@ function Navigation() {
                             </ul>
                         </ul>
                     </li>
-                    <li className="nav-item button">Get a Proposal</li>
+                    <Link to="/proposal" className='tdn'><li className="nav-item button">Get a Proposal</li></Link>
                 </ul>
             </div>
         </div>

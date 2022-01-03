@@ -1,0 +1,32 @@
+.body{
+    height: 50vh;
+}
+
+.body .container{
+    text-align: center;
+}
+
+.body .container .heading{
+    color: white;
+    font-size: 2.5rem;
+    width: 35vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8vh;
+}
+
+.body .container .desc{
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+}
+
+.body .container .call{
+    color: white;
+    background-color: #00b170;
+    border: none;
+    padding: 2vh 5vw;
+    font-size: 2rem;
+    border-radius: 10px;
+}
