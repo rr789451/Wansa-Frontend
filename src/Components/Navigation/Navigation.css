@@ -10,7 +10,7 @@ body{
 .navigation{
     width: 100%;
     height: 10vh;
-    background-color: #000;
+    background-color: #EEEEEE;
 }
 
 .logo img{
@@ -32,7 +32,7 @@ body{
     font-size: 1rem;
     font-weight: 500;
     margin-top: -10vh;
-    color: #fff;
+    color: #000;
 }
 
 .nav-item{
@@ -44,8 +44,8 @@ body{
 }
  
 .nav-item:hover{
-    background-color: aqua;
-    border-radius: 10px;
+    background-color: #FCD2D1;
+    transition: 0.5s all;
 } 
 
 .nav-item i{
@@ -85,7 +85,7 @@ body{
     width: 100vw;
     margin-top: 2vh;
     color: #fff;
-    background-color: #000;
+    background-color: #FCD2D1;
     height: 85vh;
     visibility: hidden;
     z-index: 2;
@@ -102,7 +102,7 @@ body{
 .nav-item .sub-list-1 .list .list-2,
 .nav-item .sub-list-1 .list .list-3,
 .nav-item .sub-list-1 .list .list-4{
-    background-color: wheat;
+    background-color: #FF5C58;
     border-radius: 10px;
     margin: 1em 1.8em;
     width: 20vw;
@@ -128,8 +128,8 @@ body{
 }
 
 .nav-item:hover > .sub-list-1{
-    transition: 0.5s all;
     visibility: visible;
+    transition: 0.5s all;
 }
 
 .nav-item .sub-list-2{
@@ -138,7 +138,7 @@ body{
     width: 100vw;
     margin-top: 2vh;
     color: #fff;
-    background-color: #000;
+    background-color: #FCD2D1;
     height: 85vh;
     z-index: 2;
     visibility: hidden;
@@ -155,7 +155,7 @@ body{
 .nav-item .sub-list-2 .list .list-2,
 .nav-item .sub-list-2 .list .list-3,
 .nav-item .sub-list-2 .list .list-4{
-    background-color: wheat;
+    background-color: #FF5C58;
     border-radius: 10px;
     margin: 1em 1.8em;
     width: 20vw;
@@ -191,7 +191,7 @@ body{
     width: 100vw;
     margin-top: 2vh;
     color: #fff;
-    background-color: #000;
+    background-color: #FCD2D1;
     height: 85vh;
     z-index: 2;
     visibility: hidden;
@@ -208,7 +208,7 @@ body{
 .nav-item .sub-list-3 .list .list-2,
 .nav-item .sub-list-3 .list .list-3,
 .nav-item .sub-list-3 .list .list-4{
-    background-color: wheat;
+    background-color: #FF5C58;
     border-radius: 10px;
     margin: 1em 1.8em;
     width: 20vw;
@@ -245,7 +245,7 @@ body{
     width: 100vw;
     margin-top: 2vh;
     color: #fff;
-    background-color: #000;
+    background-color: #FCD2D1;
     height: 85vh;
     z-index: 2;
     visibility: hidden;
@@ -262,7 +262,7 @@ body{
 .nav-item .sub-list-4 .list .list-2,
 .nav-item .sub-list-4 .list .list-3,
 .nav-item .sub-list-4 .list .list-4{
-    background-color: wheat;
+    background-color: #FF5C58;
     border-radius: 10px;
     margin: 1em 1.8em;
     width: 20vw;
@@ -299,7 +299,7 @@ body{
     width: 100vw;
     margin-top: 2vh;
     color: #fff;
-    background-color: #000;
+    background-color: #FCD2D1;
     height: 85vh;
     z-index: 2;
     visibility: hidden;
@@ -316,7 +316,7 @@ body{
 .nav-item .sub-list-5 .list .list-2,
 .nav-item .sub-list-5 .list .list-3,
 .nav-item .sub-list-5 .list .list-4{
-    background-color: wheat;
+    background-color: #FF5C58;
     border-radius: 10px;
     margin: 1em 1.8em;
     width: 20vw;

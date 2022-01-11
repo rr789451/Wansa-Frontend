@@ -92,8 +92,8 @@ body{
 }
 
 .accordian-container .secondary-button{
-    background-color: #fff6e5;
-    color: #141641;
+    background-color: #eeeeee;
+    color: #FE8F8F;
     border: none;
     border-radius: 2px;
     display: inline-block;
@@ -107,13 +107,13 @@ body{
 }
 
 .accordian-container .secondary-button:hover{
-    background-color: #141641;
-    color: #fff;
+    background-color: #FE8F8F;
+    color: #eeeeee;
     transition: 0.5s all;
 }
 
 .accordian-container .button-container{
-    width: 50vw;
+    width: 75vw;
     margin: auto;
     margin-top: -5rem;
     margin-bottom: 10vh;

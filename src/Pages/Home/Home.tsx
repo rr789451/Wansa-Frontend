@@ -32,24 +32,31 @@ function Home() {
                 </div>
                 <div className="services">
                     <div className="card">
-                        Service1
+                        Website & Apps
                     </div>
                     <div className="card">
-                        Service2
+                        Digital Marketing & Strategy
                     </div>
                     <div className="card">
-                        Service3
+                        Email Marketing
                     </div>
                     <div className="card">
-                        Service4
+                        Consulting- Go To Market
                     </div>
                     <div className="card">
-                        Service5
+                        Ecommerce
                     </div>
                     <div className="card">
-                        Service6
+                        Creative & Design
                     </div>
                 </div>
+            </div>
+            <div className="chatbot">
+                <a href="https://wa.link/lxzsw3" target="_blank" rel="noreferrer">
+                <div className="whatsapp-bg">
+                    <i className="fab fa-whatsapp"></i>
+                </div>
+                </a>
             </div>
             <Accordian />
             <Section />

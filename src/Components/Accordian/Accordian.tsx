@@ -62,17 +62,25 @@ function Accordian() {
         <div>
         <div className='accordian-container'>
             <div role='group' className='button-container'>
-                {show1 !== 'none' ? <button onClick={handleImage1} style={{backgroundColor : '#141641', color : 'white'}} className='secondary-button left'>Pulse</button> : <button onClick={handleImage1} className='secondary-button left'>Pulse</button> }
-                {show2 !== 'none' ? <button onClick={handleImage2} style={{backgroundColor : '#141641', color : 'white'}} className='secondary-button left'>ECG</button> : <button onClick={handleImage2} className='secondary-button left'>ECG</button> }
-                {show3 !== 'none' ? <button onClick={handleImage3} style={{backgroundColor : '#141641', color : 'white'}} className='secondary-button'>Oxygen</button> : <button onClick={handleImage3} className='secondary-button'>Oxygen</button> }
-                {show4 !== 'none' ? <button onClick={handleImage4} style={{backgroundColor : '#141641', color : 'white'}} className='secondary-button'>Temperature</button> : <button onClick={handleImage4} className='secondary-button'>Temperature</button> }
-                {show5 !== 'none' ? <button onClick={handleImage5} style={{backgroundColor : '#141641', color : 'white'}} className='secondary-button'>Glucose</button> : <button onClick={handleImage5} className='secondary-button'>Glucose</button> }
-                {show6 !== 'none' ? <button onClick={handleImage6} style={{backgroundColor : '#141641', color : 'white'}} className='secondary-button'>Six</button> : <button onClick={handleImage6} className='secondary-button'>Six</button> }
+                {show1 !== 'none' ? <button onClick={handleImage1} style={{backgroundColor : '#FE8F8F', color : '#eee'}} className='secondary-button left'>Website & Apps</button> : <button onClick={handleImage1} className='secondary-button left'>Website & Apps</button> }
+                {show2 !== 'none' ? <button onClick={handleImage2} style={{backgroundColor : '#FE8F8F', color : '#eee'}} className='secondary-button left'>Digital Marketing & Strategy</button> : <button onClick={handleImage2} className='secondary-button left'>Digital Marketing & Strategy</button> }
+                {show3 !== 'none' ? <button onClick={handleImage3} style={{backgroundColor : '#FE8F8F', color : '#eee'}} className='secondary-button'>Email Marketing</button> : <button onClick={handleImage3} className='secondary-button'>Email Marketing</button> }
+                {show4 !== 'none' ? <button onClick={handleImage4} style={{backgroundColor : '#FE8F8F', color : '#eee'}} className='secondary-button'>Consulting- Go To Market</button> : <button onClick={handleImage4} className='secondary-button'>Consulting- Go To Market</button> }
+                {show5 !== 'none' ? <button onClick={handleImage5} style={{backgroundColor : '#FE8F8F', color : '#eee'}} className='secondary-button'>Ecommerce</button> : <button onClick={handleImage5} className='secondary-button'>Ecommerce</button> }
+                {show6 !== 'none' ? <button onClick={handleImage6} style={{backgroundColor : '#FE8F8F', color : '#eee'}} className='secondary-button'>Creative & Design</button> : <button onClick={handleImage6} className='secondary-button'>Creative & Design</button> }
             </div>
             <div style={{display: show1}} className='accordian-description-container' >
                 <div className='accordian-description'>
                     <div className='accordian-container-left'>
-                        <div>Right from your happiest moments to saddest, relaxed to stressed, your Health got our back. <br />Pulse being one among our important priorities, We wholeHEARTedly accept your HEARTbeat with atmost care.</div>
+                        <div>
+                            <ul>
+                                <li>Website Development</li>
+                                <li>Wireframes</li> 
+                                <li>UI/UX</li> 
+                                <li>Ecommerce Apps</li> 
+                                <li>and More…</li>
+                            </ul>
+                            </div>
                     </div>
                     <div className='accordian-container-right'>
                         <img src="Images/heart.png" alt=''/>
@@ -82,8 +90,17 @@ function Accordian() {
             <div style={{display: show2}} className='accordian-description-container' >
                 <div className='accordian-description'>
                     <div className='accordian-container-left'>
-                        <div>We keenly observe your heart's rhythm and beautifully depict it to you. <br />We believe these ELECTRICAL signals of heart are more important than the ELECTRONIC Gadgets you daily use 😉
-</div>
+                        <div>
+                            <ul>
+                                <li>Google Ads</li>
+                                <li>Facebook Ads</li>
+                                <li>Instagram Ads</li>
+                                <li>LinkedIn Ads</li>
+                                <li>Twitter Ads</li>
+                                <li>SEO/SMO</li>
+                                <li>Lead Generation</li>
+                            </ul>
+                        </div>
                     </div>
                     <div className='accordian-container-right'>
                         <img src="Images/ecg.png" alt=''/>
@@ -93,7 +110,13 @@ function Accordian() {
             <div style={{display: show3}} className='accordian-description-container' >
                 <div className='accordian-description'>
                     <div className='accordian-container-left'>
-                        <div>In this world full of pollution, the oxygen levels in the air you breathe are uncertain, but the oxygen levels in your body measured by SfUIT are certain.</div>
+                        <div>
+                            <ul>
+                                <li>Template Design & Development</li>
+                                <li>Campaign Management</li>
+                                <li>Email Automation</li>
+                            </ul>
+                        </div>
                     </div>
                     <div className='accordian-container-right'>
                         <img src="Images/oxygen.png" alt=''/>
@@ -103,7 +126,14 @@ function Accordian() {
             <div style={{display: show4}} className='accordian-description-container' >
                 <div className='accordian-description'>
                     <div className='accordian-container-left'>
-                        <div>What if you could have a check on your body temperature without using traditional thermometers, Interesting right? <br /> This is now possible using SfUIT.</div>
+                        <div>
+                            <ul>
+                                <li>Sales & Distribution</li>
+                                <li>Marketing & Brands</li>
+                                <li>Manufacturing & Supply Chain</li>
+                                <li>Business Strategy</li>
+                            </ul>
+                        </div>
                     </div>
                     <div className='accordian-container-right'>
                         <img src="Images/temperature.png" alt=''/>
@@ -113,11 +143,13 @@ function Accordian() {
             <div style={{display: show5}} className='accordian-description-container' >
                 <div className='accordian-description'>
                     <div className='accordian-container-left'>
-                        <div>Ever bothered about your blood glucose level, Afraid? 
-                            <br />Naa, you need not be. 
-                            <br />SfUIT has a CGM (Continuous Glucose Monitoring) system which reminds you of your glucose levels.
-                            <br /><strong>Here's a secret</strong> 🤫,
-                            <br /><strong>No more pricking your finger for checking glucose</strong> 😉
+                        <div>
+                            <ul>
+                                <li>Digital Marketing</li>
+                                <li>B2B lead Generation</li>
+                                <li>B2B ER / VR Solutions</li>
+                                <li>Online Market Placements</li>
+                            </ul>
                         </div>
                     </div>
                     <div className='accordian-container-right'>
@@ -128,9 +160,13 @@ function Accordian() {
             <div style={{display: show6}} className='accordian-description-container' >
                 <div className='accordian-description'>
                     <div className='accordian-container-left'>
-                        <div>Ever bothered about your blood glucose level, Afraid? 
-                            <br />Naa, you need not be. 
-                            <br />SfUIT has a CGM (Continuous Glucose Monitoring) system which reminds you of your glucose levels.
+                        <div>
+                            <ul>
+                                <li>Logo Creation</li>
+                                <li>Social Media Posts</li>
+                                <li>Videos and Animation</li>
+                                <li>Website Designs</li>
+                            </ul>
                         </div>
                     </div>
                     <div className='accordian-container-right'>

@@ -11,8 +11,7 @@ function Header() {
     return (
         <div className='header'>
             <div className="stats">
-                <p>REVENUE DRIVEN FOR OUR CLIENTS</p>
-                <h2>$2,416,945,839</h2>
+                <p>Reach Us</p>
             </div>
             <div className={addClass ? 'search overlay' : 'search'} onClick={showOverlay}>
                 <button className={addClass ? 'none' : 'block'}>Suggestions</button>

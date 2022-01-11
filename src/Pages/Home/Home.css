@@ -63,4 +63,25 @@
     width: 20vw;
     background-color: #fff;
     border-radius: 5px;
+    user-select: none;
+}
+
+.chatbot{
+    position: fixed;
+    font-size: 3rem;
+    margin: 2rem;
+    cursor: pointer;
+    width: 4.8vw;
+    margin-top: -25vh;
+    z-index: 3;
+}
+
+.whatsapp-bg{
+    background-color: #40c351;
+    border-radius: 50%;
+}
+
+.fa-whatsapp{
+    color: #fff;
+    padding: 0.8rem 1rem;
 }
